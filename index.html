@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tariq Rasheed | Web & Python Developer</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: #0f172a;
+      color: #e5e7eb;
+      line-height: 1.6;
+    }
+
+    a {
+      color: #38bdf8;
+      text-decoration: none;
+    }
+
+    header {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+
+    header h1 span {
+      color: #38bdf8;
+    }
+
+    header p {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+      color: #cbd5f5;
+    }
+
+    .btns {
+      margin-top: 2rem;
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      padding: 0.7rem 1.5rem;
+      border-radius: 8px;
+      background: #38bdf8;
+      color: #020617;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .btn.outline {
+      background: transparent;
+      border: 1px solid #38bdf8;
+      color: #38bdf8;
+    }
+
+    .btn:hover {
+      opacity: 0.85;
+      transform: translateY(-2px);
+    }
+
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 4rem 2rem;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      border-left: 4px solid #38bdf8;
+      padding-left: 0.7rem;
+    }
+
+    .about p {
+      color: #cbd5f5;
+      max-width: 800px;
+    }
+
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+
+    .skill {
+      background: #020617;
+      padding: 1rem;
+      border-radius: 8px;
+      text-align: center;
+      border: 1px solid #1e293b;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .project {
+      background: #020617;
+      padding: 1.5rem;
+      border-radius: 10px;
+      border: 1px solid #1e293b;
+      transition: 0.3s;
+    }
+
+    .project:hover {
+      transform: translateY(-5px);
+      border-color: #38bdf8;
+    }
+
+    .project h3 {
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      border-top: 1px solid #1e293b;
+      color: #94a3b8;
+    }
+
+    footer .links {
+      margin-top: 1rem;
+      display: flex;
+      gap: 1.5rem;
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header>
+    <div>
+      <h1>Hi, I'm <span>Tariq Rasheed</span></h1>
+      <p>Web Development & Python Student | MERN Stack Learner</p>
+      <div class="btns">
+        <a href="https://github.com/TariqCO" class="btn" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/tariq-1712tr" class="btn outline" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section class="about">
+    <h2>About Me</h2>
+    <p>
+      I am a passionate web development and Python student with strong interest in building clean,
+      scalable, and user-friendly applications. I work with modern web technologies and enjoy
+      learning backend systems, APIs, and full-stack development.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section>
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="skill">HTML & CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">React</div>
+      <div class="skill">Node.js</div>
+      <div class="skill">MongoDB</div>
+      <div class="skill">Python</div>
+      <div class="skill">Git & GitHub</div>
+      <div class="skill">REST APIs</div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section>
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>Crypto Prediction Platform</h3>
+        <p>A MERN stack application where users predict crypto price movements with AI-generated summaries.</p>
+      </div>
+      <div class="project">
+        <h3>Hotel Booking System</h3>
+        <p>Full-stack booking platform with room listings, filters, authentication, and admin dashboard.</p>
+      </div>
+      <div class="project">
+        <h3>Blog Application</h3>
+        <p>Modern blog app built using React, Tailwind CSS, and ShadCN UI.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Tariq Rasheed. All rights reserved.</p>
+    <div class="links">
+      <a href="https://github.com/TariqCO" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/tariq-1712tr" target="_blank">LinkedIn</a>
+    </div>
+  </footer>
+
+</body>
+</html>
